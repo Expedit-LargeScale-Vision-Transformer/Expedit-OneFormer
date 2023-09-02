@@ -1,7 +1,7 @@
 import sys, os, distutils.core, subprocess
 
 if not os.path.exists('./detectron2'):
-    subprocess.run(['git', 'clone', 'https://github.com/facebookresearch/detectron2'])
+    subprocess.run(['git', 'clone', 'https://github.com/facebookresearch/detectron2@v0.6'])
 
 dist = distutils.core.run_setup("./detectron2/setup.py")
 
