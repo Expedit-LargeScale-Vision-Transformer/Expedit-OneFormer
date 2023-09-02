@@ -34,7 +34,7 @@ We use an evironment with the following specifications, packages and dependencie
   pip3 install -U opencv-python
 
   # Install detectron2
-  python tools/setup_detectron2.py
+  pip3 install 'git+https://github.com/facebookresearch/detectron2.git@v0.6'
 
   # Install other dependencies
   pip3 install git+https://github.com/cocodataset/panopticapi.git
