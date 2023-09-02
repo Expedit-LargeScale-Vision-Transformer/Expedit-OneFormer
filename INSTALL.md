@@ -24,8 +24,8 @@ We use an evironment with the following specifications, packages and dependencie
 - Install packages and other dependencies.
 
   ```bash
-  git clone https://github.com/SHI-Labs/OneFormer.git
-  cd OneFormer
+  git clone https://github.com/Expedit-LargeScale-Vision-Transformer/Expedit-Oneformer.git
+  cd Expedit-Oneformer
 
   # Install Pytorch
   conda install pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 -c pytorch -c conda-forge
@@ -45,7 +45,7 @@ We use an evironment with the following specifications, packages and dependencie
 - Setup wandb.
 
   ```bash
-  # Setup wand
+  # Setup wandb
   pip3 install wandb
   wandb login
   ```
