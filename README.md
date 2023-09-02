@@ -34,6 +34,8 @@ Here we implement our method on Swin backbone. Thus we report the GFLOPs and FPS
 
 ## Evaluation Instructions
 
+- You need to download the pretrained model from [OneFormer](https://github.com/SHI-Labs/OneFormer).
+
 - You need to pass the value of `task` token. `task` belongs to [panoptic, semantic, instance].
 
 ```bash
